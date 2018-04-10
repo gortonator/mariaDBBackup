@@ -40,7 +40,7 @@ CREATE TABLE `AdminLogins` (
 
 LOCK TABLES `AdminLogins` WRITE;
 /*!40000 ALTER TABLE `AdminLogins` DISABLE KEYS */;
-INSERT INTO `AdminLogins` VALUES ('adminfeone@husky.neu.edu','$s0$41010$PdfKp56Zz91BKV6BQad88A==$9GH0kvaEYRXQ08B6MSHtXwXKMPg302upW66ZhB3d5BU=',NULL,'2018-04-09 03:52:47','2018-04-09 04:08:53',1),('adminfetwo@husky.neu.edu','$s0$41010$IYEQiL+Luhz+wA50bu2AVA==$P706ak3839SBLz+6MfR+rbeeqKFG4xVQhyofDnGRHf8=',NULL,'2018-04-09 03:52:48','2018-04-09 04:08:11',1),('adminmlone@husky.neu.edu','$s0$41010$PpsXbvDXZ3LGHHmsViFpTA==$BzhZKafpskrcu5s/bxrxiV+uvPkelR8uXqwUqehUQws=',NULL,'2018-04-05 16:48:41','2018-04-05 17:03:41',1),('adminmltwo@husky.neu.edu','$s0$41010$YnbBwoD7ie2xZ6xk3Oz/6w==$hzAeJV1Otdrmi73ynseafEnTdozi00Lj3SEnozNuSAM=',NULL,'2018-04-05 16:49:09','2018-04-05 17:04:09',1),('karanam.s@husky.neu.edu','$s0$41010$K7XYc/AJ4DkvB36Yq1t6Vw==$QRyf9VX6dyQa+3gGvt4F3diAk2Vjr78wZGnY7nbFJQo=',NULL,'2018-04-05 22:35:54','2018-04-05 23:00:32',1),('testadminone@gmail.com','$s0$41010$bcAuHaPyHd4HvIwn0bavVg==$CcxmAb4K5sx6vVTifZ6yvUpAYcbl9viGNkg4byPu5N8=',NULL,'2018-04-09 00:28:53','2018-04-09 00:43:53',1),('testadmintwo@gmail.com','$s0$41010$Ll0R62pEfuCTL5Yx7LFMIA==$wuRar8kRv+/bdbB5TC3IkMEgmjlCpwHBRFPd1LzDAhE=',NULL,'2018-04-03 23:36:18','0000-00-00 00:00:00',1);
+INSERT INTO `AdminLogins` VALUES ('adminfeone@husky.neu.edu','$s0$41010$PdfKp56Zz91BKV6BQad88A==$9GH0kvaEYRXQ08B6MSHtXwXKMPg302upW66ZhB3d5BU=',NULL,'2018-04-10 01:47:50','2018-04-10 02:02:50',1),('adminfetwo@husky.neu.edu','$s0$41010$IYEQiL+Luhz+wA50bu2AVA==$P706ak3839SBLz+6MfR+rbeeqKFG4xVQhyofDnGRHf8=',NULL,'2018-04-09 23:03:43','2018-04-09 23:19:06',1),('adminmlone@husky.neu.edu','$s0$41010$PpsXbvDXZ3LGHHmsViFpTA==$BzhZKafpskrcu5s/bxrxiV+uvPkelR8uXqwUqehUQws=',NULL,'2018-04-05 16:48:41','2018-04-05 17:03:41',1),('adminmltwo@husky.neu.edu','$s0$41010$YnbBwoD7ie2xZ6xk3Oz/6w==$hzAeJV1Otdrmi73ynseafEnTdozi00Lj3SEnozNuSAM=',NULL,'2018-04-05 16:49:09','2018-04-05 17:04:09',1),('karanam.s@husky.neu.edu','$s0$41010$K7XYc/AJ4DkvB36Yq1t6Vw==$QRyf9VX6dyQa+3gGvt4F3diAk2Vjr78wZGnY7nbFJQo=',NULL,'2018-04-09 21:45:44','2018-04-09 22:21:01',1),('testadminone@gmail.com','$s0$41010$bcAuHaPyHd4HvIwn0bavVg==$CcxmAb4K5sx6vVTifZ6yvUpAYcbl9viGNkg4byPu5N8=',NULL,'2018-04-09 00:28:53','2018-04-09 00:43:53',1),('testadmintwo@gmail.com','$s0$41010$Ll0R62pEfuCTL5Yx7LFMIA==$wuRar8kRv+/bdbB5TC3IkMEgmjlCpwHBRFPd1LzDAhE=',NULL,'2018-04-03 23:36:18','0000-00-00 00:00:00',1);
 /*!40000 ALTER TABLE `AdminLogins` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -60,7 +60,7 @@ CREATE TABLE `AdministratorNotes` (
   PRIMARY KEY (`AdministratorNoteId`),
   KEY `fk_AdministratorNotes_AdministratorNeuId` (`AdministratorNeuId`),
   CONSTRAINT `fk_AdministratorNotes_AdministratorNeuId` FOREIGN KEY (`AdministratorNeuId`) REFERENCES `Administrators` (`AdministratorNeuId`) ON DELETE SET NULL ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -69,7 +69,7 @@ CREATE TABLE `AdministratorNotes` (
 
 LOCK TABLES `AdministratorNotes` WRITE;
 /*!40000 ALTER TABLE `AdministratorNotes` DISABLE KEYS */;
-INSERT INTO `AdministratorNotes` VALUES (4,'004','8123094','abc','123'),(5,'004','8123094','abc','abc');
+INSERT INTO `AdministratorNotes` VALUES (23,'1','8123094','1','1'),(25,'395','8123094','123','123'),(29,'105','8123094','1','2sdaafa'),(30,'004','8123094','Test1','Test2');
 /*!40000 ALTER TABLE `AdministratorNotes` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -142,4 +142,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-09 12:27:21
+-- Dump completed on 2018-04-10 12:27:21
