@@ -40,7 +40,7 @@ CREATE TABLE `AdminLogins` (
 
 LOCK TABLES `AdminLogins` WRITE;
 /*!40000 ALTER TABLE `AdminLogins` DISABLE KEYS */;
-INSERT INTO `AdminLogins` VALUES ('adminfeone@husky.neu.edu','$s0$41010$PdfKp56Zz91BKV6BQad88A==$9GH0kvaEYRXQ08B6MSHtXwXKMPg302upW66ZhB3d5BU=',NULL,'2018-04-27 03:13:42','2018-04-27 03:32:13',1),('adminfetwo@husky.neu.edu','$s0$41010$IYEQiL+Luhz+wA50bu2AVA==$P706ak3839SBLz+6MfR+rbeeqKFG4xVQhyofDnGRHf8=',NULL,'2018-04-25 00:53:27','2018-04-25 01:09:48',1),('admintestfive@husky.neu.edu','$s0$41010$M099dBr19vx1mPeIRb7bbA==$mgf5J+ZTSbCRZkZqcTzdmrq+RpMPg2LyRU9Bq4Vf264=',NULL,'2018-04-11 16:07:50','0000-00-00 00:00:00',1),('admintestfour@husky.neu.edu','$s0$41010$oDwx4tkhjNvp0o0ABwX/8w==$e8ADTf4r/EKoKnPAEJuIy8krnA6C+CvRYoSPivrhHWs=',NULL,'2018-04-17 06:16:07','2018-04-17 06:50:57',1),('admintestone@husky.neu.edu','$s0$41010$dNvUD/Ie0wh/nzN4MKkQ4A==$8I+D2c3WHSe1nGYaUEEtb5iWaLYsEbWLbToDVmNZbJU=',NULL,'2018-04-24 20:17:49','2018-04-24 20:51:57',1),('admintestthree@husky.neu.edu','$s0$41010$hGLPu+L9Orls45YQQRqXMA==$LmGg+gMjc4rGSMSZdFYRW2xzqTiSZQnDNg2l5uwYpnA=',NULL,'2018-04-11 16:07:49','0000-00-00 00:00:00',1),('admintesttwo@husky.neu.edu','$s0$41010$WmkzePeKlHDKZDLO3wxSXw==$ik8KHHtkp3ZqpGVqJa++iIHDaaR6WA5dMS++VTRpYfY=',NULL,'2018-04-24 19:41:43','2018-04-24 19:58:00',1);
+INSERT INTO `AdminLogins` VALUES ('adminfeone@husky.neu.edu','$s0$41010$PdfKp56Zz91BKV6BQad88A==$9GH0kvaEYRXQ08B6MSHtXwXKMPg302upW66ZhB3d5BU=',NULL,'2018-04-27 03:13:42','2018-04-27 03:32:13',1),('adminfetwo@husky.neu.edu','$s0$41010$IYEQiL+Luhz+wA50bu2AVA==$P706ak3839SBLz+6MfR+rbeeqKFG4xVQhyofDnGRHf8=',NULL,'2018-04-28 18:08:34','2018-04-28 18:24:32',1),('admintestfive@husky.neu.edu','$s0$41010$M099dBr19vx1mPeIRb7bbA==$mgf5J+ZTSbCRZkZqcTzdmrq+RpMPg2LyRU9Bq4Vf264=',NULL,'2018-04-11 16:07:50','0000-00-00 00:00:00',1),('admintestfour@husky.neu.edu','$s0$41010$oDwx4tkhjNvp0o0ABwX/8w==$e8ADTf4r/EKoKnPAEJuIy8krnA6C+CvRYoSPivrhHWs=',NULL,'2018-04-17 06:16:07','2018-04-17 06:50:57',1),('admintestone@husky.neu.edu','$s0$41010$dNvUD/Ie0wh/nzN4MKkQ4A==$8I+D2c3WHSe1nGYaUEEtb5iWaLYsEbWLbToDVmNZbJU=',NULL,'2018-04-24 20:17:49','2018-04-24 20:51:57',1),('admintestthree@husky.neu.edu','$s0$41010$hGLPu+L9Orls45YQQRqXMA==$LmGg+gMjc4rGSMSZdFYRW2xzqTiSZQnDNg2l5uwYpnA=',NULL,'2018-04-11 16:07:49','0000-00-00 00:00:00',1),('admintesttwo@husky.neu.edu','$s0$41010$WmkzePeKlHDKZDLO3wxSXw==$ik8KHHtkp3ZqpGVqJa++iIHDaaR6WA5dMS++VTRpYfY=',NULL,'2018-04-24 19:41:43','2018-04-24 19:58:00',1);
 /*!40000 ALTER TABLE `AdminLogins` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -142,4 +142,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-28  5:27:15
+-- Dump completed on 2018-04-29  5:27:15
